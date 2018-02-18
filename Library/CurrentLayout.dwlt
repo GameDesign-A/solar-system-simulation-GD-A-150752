@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 114
+  controlID: 50
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,7 +121,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 18}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -252,8 +252,8 @@ MonoBehaviour:
     y: 0
     width: 818
     height: 357
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -327,18 +327,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Unity Work\Solar System
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 64270000
-    m_LastClickedID: 10084
+    m_SelectedIDs: 6a270000
+    m_LastClickedID: 10090
     m_ExpandedIDs: 000000006427000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -485,9 +485,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 9efbffff00000000
+    m_SelectedIDs: 90280000
+    m_LastClickedID: 10384
+    m_ExpandedIDs: 762df8ffd6e4f8ff9efbffff000000005228000082280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -538,14 +538,14 @@ MonoBehaviour:
     height: 336
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 802.5940091057523
+  lastFramingTime: 21296.308186832583
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 24.930206, y: 7.8620157, z: 66.36456}
+    m_Target: {x: -3.9490886, y: 99.970474, z: -0.5070516}
     speed: 2
-    m_Value: {x: 24.930206, y: 7.8620157, z: 66.36456}
+    m_Value: {x: -3.9490886, y: 99.970474, z: -0.5070516}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -569,19 +569,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.012026946, y: -0.970838, z: 0.049858067, w: 0.23418616}
+    m_Target: {x: -0.010069576, y: -0.6837549, z: 0.7295813, w: -0.009437317}
     speed: 2
-    m_Value: {x: -0.012026943, y: 0.970838, z: -0.049858063, w: -0.23418616}
+    m_Value: {x: -0.010069576, y: -0.6837549, z: 0.7295813, w: -0.009437317}
   m_Size:
-    m_Target: 22.093666
+    m_Target: 22
     speed: 2
-    m_Value: 22.093666
+    m_Value: 22
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.0030378462, y: 0.690353, z: -0.72346056, w: -0.0028985932}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -686,8 +686,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 718
-    width: 1366
-    height: 308
+    x: 0
+    y: 449
+    width: 1084
+    height: 257
   m_PersistentViewDataDictionary: {fileID: 0}
