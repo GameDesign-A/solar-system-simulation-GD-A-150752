@@ -4,7 +4,6 @@ using System.Collections;
 public class ChangeLookAtTarget : MonoBehaviour {
 
 	public GameObject target; // the target that the camera should look at
-	//public GameObject targetCamera;
 
 	void Start() {
 		if (target == null) 
@@ -18,7 +17,6 @@ public class ChangeLookAtTarget : MonoBehaviour {
 	void OnMouseDown () {
 		// change the target of the LookAtTarget script to be this gameobject.
 		LookAtTarget.target = target;
-		//targetCamera.SetActive (true);
 		Camera.main.fieldOfView = 60*target.transform.localScale.x;
 	}
 }
